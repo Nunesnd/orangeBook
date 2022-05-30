@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -32,7 +33,6 @@ section h1{
 
 .content{
     
-    box-sizing: border-box;
     height: 100vh;
     width: 100vw;
     height: 500;
@@ -42,4 +42,25 @@ section h1{
     position: absolute;
     left: 50%;
     transform: translateX(-50%)
+}
+
+h3{
+    color: rgb(253, 152, 0);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tbl{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbl tr:nth-child(2n){background: rgb(238, 191, 138);}
+
+.tbl td:first-child{width: 180px;}
+
+ul{
+    list-style: upper-roman;
+    list-style-position: outside;
 }
