@@ -7,6 +7,19 @@ btnSalvar.addEventListener("click", function(e){
     let nomeCad = formCad.nome.value;
     let foneCad = formCad.fone.value;
     let emailCad = formCad.email.value;
+
+    if (nomeCad != ""){
+        document.getElementById('nome').value='';
+    }
+
+    if (foneCad != ""){
+        document.getElementById('fone').value='';
+    }
+
+    if (emailCad != ""){
+        document.getElementById('email').value='';
+    }
+
     console.log(nomeCad, foneCad, emailCad);
 
 })
