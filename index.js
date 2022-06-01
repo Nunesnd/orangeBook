@@ -20,7 +20,8 @@ btnSalvar.addEventListener("click", function(e){
         document.getElementById('email').value='';
     }
 
-    console.log(nomeCad, foneCad, emailCad);
+    
+    alert(nomeCad+" "+foneCad+" "+emailCad);
 
 })
 
