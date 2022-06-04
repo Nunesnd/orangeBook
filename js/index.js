@@ -21,6 +21,7 @@ btnSalvar.addEventListener("click", function(e){
     }
 
     
+    
     alert(nomeCad+" "+foneCad+" "+emailCad);
 
 })
